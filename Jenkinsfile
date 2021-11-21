@@ -1,8 +1,5 @@
 pipeline {
     agent any 
-    environment {
-     secrete= credentials('p-sample')
-    }
     stages {
         stage('Build')  {
             steps {
