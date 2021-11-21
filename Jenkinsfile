@@ -1,32 +1,31 @@
 pipeline {
-    agent any
-
+    agent any 
+    environment {
+     secrete= credentials('p-sample')
+    }
     stages {
-        stage("Build") {
-            step {
-                 sh '''
-               echo Build
-
-               '''
-            }
-           
-        }
-        stage("Push") {
-            step {
-                 sh '''
-               echo Push
-
-               '''
-            }
-           
-        }
-        stage("Deploy") {
-            step {
-            sh '''
-               echo Deploy
-               
-               '''
+        stage('Build')  {
+            steps {
+               retry(3) {
+                 
+                  echo "Hello"
+               }
             }
         }
+    }
+    post {
+        always {
+           echo "I always"
+        } 
+        failure {
+           echo "I failed"
+        } 
+        success {
+           echo "I succesed"
+        } 
+        unstable {
+           echo "I unstopble"
+        } 
+        
     }
 }
