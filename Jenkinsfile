@@ -3,22 +3,25 @@ pipeline {
 
     stages {
         stage("Build") {
-            sh '''
+          steps {
+             sh '''
                ./jenkins/build/build.sh
-
                '''
+             }
         }
         stage("Push") {
+           steps {
             sh '''
                echo Push
-
                '''
+           }
         }
         stage("Deploy") {
+         steps {
             sh '''
                echo Deploy
-               
                '''
+           }
         }
     }
 }
