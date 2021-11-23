@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    environment {
+        GCR_CRED = credentials('ASS')
+    }
 
     stages {
         stage("Build") {
@@ -20,7 +23,7 @@ pipeline {
         stage("Deploy") {
          steps {
             sh '''
-               .j/enkins/deploy/deploy.sh
+               ./jenkins/deploy/deploy.sh
                echo Deploy
                '''
            }
