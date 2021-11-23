@@ -9,6 +9,7 @@ pipeline {
           steps {
              sh '''
                ./jenkins/build/build.sh
+               echo "Build"
                '''
              }
         }
