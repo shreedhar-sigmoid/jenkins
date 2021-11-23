@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GCR_CRED = credentials('ASS')
+        GCR_CRED = credentials('ASSIGNMENT')
     }
 
     stages {
