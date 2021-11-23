@@ -13,6 +13,7 @@ pipeline {
            steps {
             sh '''
                ./jenkins/push/push.sh
+               echo Push
                '''
            }
         }
@@ -20,6 +21,7 @@ pipeline {
          steps {
             sh '''
                .j/enkins/deploy/deploy.sh
+               echo Deploy
                '''
            }
         }
