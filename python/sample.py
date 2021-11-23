@@ -2,7 +2,7 @@ import psutil
 import sched, time
 
 
-print("Hello world!!")
+print("Hello world!")
 
 s = sched.scheduler(time.time, time.sleep)
 def do_something(sc): 
