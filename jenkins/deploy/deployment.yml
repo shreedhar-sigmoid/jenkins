@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+   name: simple-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: python-app
+  template:
+    metadata:
+      name: simple-app
+      labels:
+        app: python-app
+    spec:
+      containers:
+        - name: simple-app
+          image: gcr.io/global-memento-332706/jenkins-assignment:v1
+          ports:
+           - containerPort: 8080

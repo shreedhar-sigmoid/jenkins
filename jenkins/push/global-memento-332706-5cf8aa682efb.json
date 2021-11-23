@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "global-memento-332706",
+  "private_key_id": "5cf8aa682efb9fa61be2b4da688589355cd7ee5f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6nYOoDnGcBVfC\nK/HxPpPjwFYqW5SrDK0W81Fe9df4selmfngvYBNaVu2CGojWtEIiD1WYjuEQb/pB\nhn7YaGqFD8dMpP0tQAhMTtmHzW3THH3aGEFGgktC11RMk6CcvztdK1RSO/L2Yr52\nGy+Ehuw4eU7T0w4DtzIP8TeKVblPoqJ5NdLBIowokmlkVquvqwPB+tfl2ehe69yY\nWbSpcw/MVpgBXKZtvImDibQGLzjsmtuaEQ0ttiRl4iWi6z2jnYKibBc/GZdDDgZq\npibj1UCREy3x17tP8hvjIm1zjAvnKHX/xbZeSdE4hjigUNcdb6kqY+KTTDjfP29n\nvB9zwFVxAgMBAAECggEAAuTkOLAfqC4niCP/FLEWIVE3bOD+d2AjE5DqtUSuCKX2\nsw+ZTM/KQQuJ06uWbXD+eRGAj/UATc1Uxd0gfLny0/U0j65b3E6qykcrRblEf6KI\nm6AmbAHjian1/VmJQ0EOekGMpVlXaWWK42FEzYL7qR0NgUi7xgg6ayegJ0Gw1eiu\njnW06Aya4+0M0EpVRs0iyfyJT9cDL+FNWWuoU9ElvBgRrqlsnW8Oj+BXf5GGbn2z\n5LzHnyCBbINAfzUEEx1f0DVsLkqXF1jvMAEUbnBjA5nhXpztsYWF5gQFOoL8Kq5l\nWRw4lgEUgBTwL2jX08jjvqLGMrZYbgM/67RPM4GxeQKBgQD9gP88nsUG1Cx5tr9b\nk/e1kbZNB99nMJ32i51Qp8yxh9/YO3M+z9jSeyflitcZJKSKksO7xx9HaEuUS1Mg\nKUZEMW3cF8fvIpJLXQDOPX50E9oqWNPJyzw67zGhIywuGQoTjFNJw+zmDXAnib0/\nqfp0oBTnkiouzTQ8/gFJ2R0MaQKBgQC8c+mL1lvmGuQg5aC9zDFYrGxju0uiG/Ob\nP+V6dhXvoh3UltDPBBOCaFbhra6UlZWwOJgxJxWrdgDbV0awObdSMVXJIELbbkZj\nIfsADDyts07fI/GzIPnnvmfvyfHw18TFwFiWzGGj4NRy6s5YSuH6ARg1OPm0FzmX\nHKEiqU3/yQKBgA4wLhjiefyL24FkbQlfGroa0a02B5bq7axi3AcrnRVCmZCsoyKc\n13HQWsdKIgfSOTNYS4Qy/NkuSSyfmqNuK/SdH5z158bGlJGLPwRMBMvSYJ+GITRm\nH5Tc1lZCdbKOzDWT4QV75cJqdiCAYQszJEVqwEDFuX6tFYNkZAYSFMIhAoGBAKgg\nMSeUYgBz1TqUIkexuASIL1r6aYuCrF7BLpWGbCOR2lMjCb7mwBEDzR8huDLPEPBa\nTUzstaR2bmVBA8uMckRdx07b/UmOpDUkx61PPYMqCR+CDcvli454jHmdDL/1f5N8\n+ovuYt21Y1Pyr4yNofVMrLAu2HcWkUaDQC6QJQohAoGAUpqHCbfLPVfxPc5x03V3\nxTuaVsxkd2uuJDVr+PBXMzKBQNMDam3MF0JqVq8bpEXK9lJOSPV5dNDDkJnFVqZL\nj+I5SryuRIut6sCsmNF1b/gzKbEFBbYSgbc8vWTyfcnCMMFcQCobxc5BLpVbPkTv\nGfv44dmmfamxD45Ph6lUch4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "jenkins-action@global-memento-332706.iam.gserviceaccount.com",
+  "client_id": "108076851071816848234",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jenkins-action%40global-memento-332706.iam.gserviceaccount.com"
+}

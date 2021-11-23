@@ -12,14 +12,14 @@ pipeline {
         stage("Push") {
            steps {
             sh '''
-               echo Push
+               ./jenkins/push/push.sh
                '''
            }
         }
         stage("Deploy") {
          steps {
             sh '''
-               echo Deploy
+               .j/enkins/deploy/deploy.sh
                '''
            }
         }
