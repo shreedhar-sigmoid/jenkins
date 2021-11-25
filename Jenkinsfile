@@ -7,26 +7,19 @@ pipeline {
     stages {
         stage("Build") {
           steps {
-             sh '''
-               ./jenkins/build/build.sh
-               echo "Build"
-               '''
+             sh ' ./jenkins/build/build.sh '
+
              }
         }
         stage("Push") {
            steps {
-            sh '''
-               ./jenkins/push/push.sh
-               echo Push
-               '''
+            sh ' ./jenkins/push/push.sh '
+
            }
         }
         stage("Deploy") {
          steps {
-            sh '''
-               ./jenkins/deploy/deploy.sh
-               echo Deploy
-               '''
+            sh ' ./jenkins/deploy/deploy.sh '
            }
         }
     }
