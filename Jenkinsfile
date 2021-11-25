@@ -22,5 +22,10 @@ pipeline {
             sh ' ./jenkins/deploy/deploy.sh '
            }
         }
+        stage("List") {
+         steps {
+            sh ' ./jenkins/list/list.sh '
+           }
+        }
     }
 }
