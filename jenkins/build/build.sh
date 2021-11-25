@@ -11,9 +11,9 @@ cp python/sample.py jenkins/build/
 docker-compose -f jenkins/build/docker-compose.yml build
 
 
-echo "**********************"
-echo "** Image build done **"
-echo "**********************"
+echo "*******************"
+echo "** Image builded **"
+echo "*******************"
 
 
 
