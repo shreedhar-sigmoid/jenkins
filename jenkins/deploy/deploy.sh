@@ -10,7 +10,7 @@ gcloud container clusters get-credentials cluster-1 --zone us-central1-c
 kubectl create -f jenkins/deploy/deployment.yml -f jenkins/deploy/service.yml
 docker logout https://gcr.io
 
-echo "***************************"
+echo "****************************"
 echo "** successfully deployed **"
 echo "***************************"
 
