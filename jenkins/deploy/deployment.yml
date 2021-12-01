@@ -20,11 +20,11 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: tomcat-service
+  name: simple-app
 spec:
   type: LoadBalancer
   selector:
-    app: tomcat-app
+    app: simple-app
   ports:
    - name: http 
      port: 9000
